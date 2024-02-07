@@ -5,5 +5,5 @@ COPY requirement.txt .
 RUN pip install --upgrade pip
 RUN pip install -r requirement.txt
 COPY . .
-EXPOSE 5000
+EXPOSE 5002
 CMD ["python", "main.py"]
