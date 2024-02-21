@@ -11,7 +11,7 @@ def fetchdetails():
 
 @app.route("/")
 def index():
-    a=20
+    a=40
     b=30
     final=a+b
     return render_template("index.html",score=final)
@@ -38,4 +38,4 @@ def contactus():
     return render_template("contactus.html", contactus=kiki,telephone=phone)
 
 if __name__== '__main__':
-    app.run(debug=True, host="127.0.0.1", port=5002)
+    app.run(debug=True, host="127.0.0.1", port=5003)

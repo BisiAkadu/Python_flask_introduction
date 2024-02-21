@@ -1,0 +1,17 @@
+version: "3"
+services:
+  flaskapp:
+    build: 
+      context: .
+    ports:
+      - 5003:5003 
+    volumes:
+      - ./:/app
+
+
+
+  
+  
+  
+
+  
